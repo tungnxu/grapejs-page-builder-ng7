@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "../page-builder/node_modules/grapesjs/dist/css/grapes.min.css",
+              "../page-builder/node_modules/grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../page-builder/node_modules/grapesjs/dist/grapes.min.js",
+              "../page-builder/node_modules/grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
