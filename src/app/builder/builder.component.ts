@@ -54,6 +54,7 @@ export class BuilderComponent implements OnInit {
 
   public getCodeHTMLNow() {
     console.log(this.editor.getHtml());
+    console.log("codemoi");
   }
   public getCodeCSSNow() {
     console.log(this.editor.getCss());
